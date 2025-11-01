@@ -26,8 +26,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.2, ease: "easeInOut" }}
           >
-            Building the bridge between <br />
-            <span className="glowing-text">Developers</span> and <span className="glowing-text">Web3 Ecosystems.</span>
+            Building the bridge between <span className="glowing-text">Developers</span> and <span className="glowing-text">Web3 Ecosystems.</span>
           </motion.h1>
           
           <p className="mt-8 text-lg md:text-xl text-muted-foreground">
