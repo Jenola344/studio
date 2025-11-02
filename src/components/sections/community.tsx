@@ -19,8 +19,8 @@ const communityItems = [
   {
     id: 'community-2',
     icon: <Presentation className="h-5 w-5" />,
-    title: 'Smart Contract Security Workshop',
-    description: 'Led a hands-on workshop for 100+ developers on best practices for writing secure Solidity code and avoiding common vulnerabilities.',
+    title: 'Managed 8 Project Teams',
+    description: 'Supervised eight development teams of 4–5 members during Base Batch 002, guiding them to design and build potential “killer apps” for the Base ecosystem. Focused on idea validation, usability, and real-world adoption.',
   },
 ];
 

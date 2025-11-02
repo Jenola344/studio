@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -9,9 +8,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Send, Wallet } from 'lucide-react';
+import { Send } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
-import { cn } from '@/lib/utils';
 
 const formSchema = z.object({
   name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
@@ -20,7 +18,6 @@ const formSchema = z.object({
 });
 
 export default function ContactSection() {
-  const [isWalletConnected, setIsWalletConnected] = useState(false);
   const { toast } = useToast();
 
   const form = useForm<z.infer<typeof formSchema>>({
@@ -36,34 +33,11 @@ export default function ContactSection() {
     });
     form.reset();
   };
-  
-  const handleConnectWallet = () => {
-    setIsWalletConnected(true);
-    toast({
-        title: "Wallet Connected",
-        description: "Your wallet has been successfully connected. You can now send a message.",
-    });
-  }
 
   return (
     <section id="contact" className="container">
       <div className="max-w-2xl mx-auto">
         <Card className="relative bg-card/80 backdrop-blur-sm border-border/20">
-            <div className={cn(
-                "absolute inset-0 flex flex-col items-center justify-center bg-background/80 backdrop-blur-sm z-10 transition-opacity duration-500 rounded-lg",
-                isWalletConnected ? "opacity-0 pointer-events-none" : "opacity-100"
-            )}>
-                <div className="text-center space-y-4 p-8">
-                    <Wallet className="mx-auto h-12 w-12 text-primary" style={{ filter: 'drop-shadow(0 0 8px hsl(var(--primary) / 0.6))' }}/>
-                    <h3 className="text-xl font-semibold">Verify Ownership</h3>
-                    <p className="text-muted-foreground">Please connect your wallet to verify you're a fellow builder and send a message.</p>
-                    <Button onClick={handleConnectWallet}>
-                        <Wallet className="mr-2 h-4 w-4" />
-                        Connect Wallet
-                    </Button>
-                </div>
-            </div>
-
           <CardHeader className="text-center">
             <span className="text-sm font-semibold uppercase tracking-wider text-primary">Let's Collaborate</span>
             <CardTitle className="text-3xl md:text-4xl font-bold tracking-tighter">Get in Touch</CardTitle>
