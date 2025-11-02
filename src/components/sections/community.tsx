@@ -13,7 +13,7 @@ const communityItems = [
   {
     id: 'community-1',
     icon: <Mic className="h-5 w-5" />,
-    title: 'Keynote at Web3 Summit 2023',
+    title: 'Simplifying Blockchain & Security',
     description: 'Spoke about the future of developer relations in a decentralized world, focusing on community-driven growth strategies.',
   },
   {
