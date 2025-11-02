@@ -7,7 +7,7 @@ const communityItems = [
   {
     id: 'community-1',
     icon: <Mic className="h-5 w-5" />,
-    title: 'Led Farcaster Meetup with Web3Nova',
+    title: 'Educating 40+ on Web3 Opportunities',
     description: 'led Farcaster meetup with Web3Nova, bringing together 40+ technical and non-technical attendees. Taught participants how to leverage, build, and earn in the Web3 ecosystem through hands-on learning and discussions.',
   },
   {
