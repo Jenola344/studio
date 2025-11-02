@@ -14,7 +14,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: 'Jesutola Olusegun | Web3 DevRel Catalyst',
-  description: 'Building the bridge between Developers and Web3 Ecosystems.',
+  description: 'Building the bridge between {br} Developers and Web3 Ecosystems.',
 };
 
 export default function RootLayout({
