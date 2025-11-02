@@ -32,7 +32,7 @@ export default function HeroSection() {
           </motion.h1>
           
           <p className="mt-8 text-lg md:text-xl text-muted-foreground">
-            I’m Jesutola Olusegun, a passionate Developer Relations professional with a knack for frontend development and smart contract engineering.
+          I’m <span className="font-bold">Jesutola Olusegun</span>, also known as <span className="font-bold">Jenola</span>, a dedicated Developer Relations professional leveraging my expertise in frontend and smart contract development to build, educate, and inspire the next generation of Web3 innovators.
           </p>
           <div className="mt-8 flex justify-center gap-4">
             <Button asChild size="lg">
