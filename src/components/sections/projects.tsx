@@ -14,6 +14,24 @@ const projects = [
     tags: ['Next.js', 'Web3.js', 'The Graph'],
   },
   {
+    id: 'project-1',
+    title: 'DeFi Dashboard',
+    description: 'An analytics platform for tracking and managing decentralized finance portfolios across multiple protocols. Built with Next.js and integrated with The Graph for real-time data.',
+    tags: ['Next.js', 'Web3.js', 'The Graph'],
+  },
+  {
+    id: 'project-1',
+    title: 'DeFi Dashboard',
+    description: 'An analytics platform for tracking and managing decentralized finance portfolios across multiple protocols. Built with Next.js and integrated with The Graph for real-time data.',
+    tags: ['Next.js', 'Web3.js', 'The Graph'],
+  },
+  {
+    id: 'project-1',
+    title: 'DeFi Dashboard',
+    description: 'An analytics platform for tracking and managing decentralized finance portfolios across multiple protocols. Built with Next.js and integrated with The Graph for real-time data.',
+    tags: ['Next.js', 'Web3.js', 'The Graph'],
+  }
+  {
     id: 'project-2',
     title: 'Generative Art NFT Marketplace',
     description: 'A marketplace for artists to mint and trade generative art NFTs. Smart contracts were developed with a focus on gas optimization and security.',
