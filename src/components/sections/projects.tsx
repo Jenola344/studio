@@ -28,7 +28,7 @@ const projects = [
   {
     id: 'project-4',
     title: 'CryptoQuest',
-    description: 'A modular and extensible framework for launching Decentralized Autonomous Organizations. Features on-chain voting and treasury management.',
+    description: 'A gamified Web3 learning platform designed to make blockchain education interactive, rewarding, and community-driven.',
     tags: ['Smart Contracts', 'DAO', 'Ethers.js'],
   },
   {
