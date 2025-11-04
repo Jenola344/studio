@@ -9,13 +9,13 @@ import placeholderData from '@/lib/placeholder-images.json';
 const projects = [
   {
     id: 'project-1',
-    title: 'DeFi Dashboard',
-    description: 'An analytics platform for tracking and managing decentralized finance portfolios across multiple protocols. Built with Next.js and integrated with The Graph for real-time data.',
+    title: 'Paycrypt',
+    description: 'PayCrypt is a seamless payment platform that empowers you to pay your everyday bills with cryptocurrency quickly, securely, and effortlessly',
     tags: ['Next.js', 'Web3.js', 'The Graph'],
   },
   {
     id: 'project-1',
-    title: 'DeFi Dashboard',
+    title: 'Memevibe',
     description: 'An analytics platform for tracking and managing decentralized finance portfolios across multiple protocols. Built with Next.js and integrated with The Graph for real-time data.',
     tags: ['Next.js', 'Web3.js', 'The Graph'],
   },
