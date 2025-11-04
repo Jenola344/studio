@@ -31,12 +31,6 @@ const projects = [
     description: 'A gamified Web3 learning platform designed to make blockchain education interactive, rewarding, and community-driven.',
     tags: ['Smart Contracts', 'DAO', 'Ethers.js'],
   },
-  {
-    id: 'project-5',
-    title: 'Web3 Developer Portal',
-    description: 'A comprehensive documentation and tutorial portal for a Layer-2 scaling solution, designed to improve developer onboarding and experience.',
-    tags: ['DevRel', 'Documentation', 'Docusaurus'],
-  },
 ];
 
 export default function ProjectsSection() {
