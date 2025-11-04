@@ -16,13 +16,13 @@ const projects = [
   {
     id: 'project-1',
     title: 'Memevibe',
-    description: 'An analytics platform for tracking and managing decentralized finance portfolios across multiple protocols. Built with Next.js and integrated with The Graph for real-time data.',
+    description: 'A fun and intuitive mini app that helps you craft hilarious memes in just seconds — quick, easy, and enjoyable, fostering social engagement',
     tags: ['Next.js', 'Web3.js', 'The Graph'],
   },
   {
     id: 'project-2',
-    title: 'Generative Art NFT Marketplace',
-    description: 'A marketplace for artists to mint and trade generative art NFTs. Smart contracts were developed with a focus on gas optimization and security.',
+    title: 'BaseConnect',
+    description: 'A Web3 collaboration platform that connects builders and contributors through transparent, automated, and trustless systems, enabling seamless collaboration between project owners and skilled contributors from task creation to verified completion and instant payment.',
     tags: ['Solidity', 'Hardhat', 'React'],
   },
   {
