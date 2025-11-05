@@ -26,10 +26,14 @@ export default function ContactSection() {
   });
 
   const onSubmit = (values: z.infer<typeof formSchema>) => {
-    console.log(values);
+    const subject = encodeURIComponent(`Message from ${values.name}`);
+    const body = encodeURIComponent(values.message + `\n\nFrom: ${values.email}`);
+    const mailtoLink = `mailto:jenoladev@gmail.com?subject=${subject}&body=${body}`;
+    window.open(mailtoLink, '_blank');
+    
     toast({
-      title: "Message Sent!",
-      description: "Thanks for reaching out. It feels like we just minted a new conversation.",
+      title: "Email Client Opened",
+      description: "Please send your message using your email client.",
     });
     form.reset();
   };
