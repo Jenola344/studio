@@ -5,12 +5,12 @@ const skills = [
   {
     title: 'Frontend Development',
     icon: <Code className="w-8 h-8" />,
-    description: 'I build interfaces that feel invisible. I prioritize intuitive design and flawless performance to create seamless experiences where the technology fades into the background, leaving only user delight.',
+    description: 'I build interfaces that feel invisible. I prioritize intuitive design and flawless performance to create seamless experiences ',
   },
   {
     title: 'Smart Contract Engineering',
     icon: <Rocket className="w-8 h-8" />,
-    description: 'Developing secure and efficient smart contracts on EVM-compatible chains. My expertise includes Solidity, Hardhat, and best practices for on-chain logic.',
+    description: 'Developing secure and efficient smart contracts on EVM-compatible chains.',
   },
   {
     title: 'Developer Relations',
