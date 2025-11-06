@@ -2,27 +2,27 @@
   "placeholderImages": [
     {
       "id": "project-1",
-      "description": "A decentralized finance application dashboard.",
-      "imageUrl": "https://picsum.photos/seed/1/600/400",
-      "imageHint": "dapp dashboard"
+      "description": "A user paying bills with cryptocurrency on a modern interface.",
+      "imageUrl": "https://images.unsplash.com/photo-1635840420248-1ba20fd1aac2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjcnlwdG8lMjBwYXltZW50fGVufDB8fHx8MTc2MjM5MTE4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crypto payment"
     },
     {
       "id": "project-2",
-      "description": "An NFT marketplace for digital artists.",
-      "imageUrl": "https://images.unsplash.com/photo-1741922519164-9373ae4c7d7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxuZnQlMjBtYXJrZXRwbGFjZXxlbnwwfHx8fDE3NjIwMzE1OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "nft marketplace"
+      "description": "A gallery of funny and trending memes.",
+      "imageUrl": "https://picsum.photos/seed/memevibe/600/400",
+      "imageHint": "meme gallery"
     },
     {
       "id": "project-3",
-      "description": "The logo for BaseConnect, a Web3 collaboration platform.",
-      "imageUrl": "https://base.org/images/base-logo.png",
-      "imageHint": "base logo"
+      "description": "A network of connected nodes representing a collaboration platform.",
+      "imageUrl": "https://images.unsplash.com/photo-1675044794037-9262cedb6d5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb2xsYWJvcmF0aW9uJTIwbmV0d29ya3xlbnwwfHx8fDE3NjIyNzM1Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "collaboration network"
     },
     {
       "id": "project-4",
-      "description": "A developer portal for a blockchain protocol.",
-      "imageUrl": "https://images.unsplash.com/photo-1731068305209-168e99ed4722?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZXZlbG9wZXIlMjBkb2N1bWVudGF0aW9ufGVufDB8fHx8MTc2MjAzMTU5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "developer documentation"
+      "description": "A person on a quest in a digital world, representing a gamified learning experience.",
+      "imageUrl": "https://picsum.photos/seed/cryptoquest/600/400",
+      "imageHint": "gamified learning"
     },
     {
       "id": "community-1",
